@@ -1,0 +1,23 @@
+- Pandas is poweful python data analysis toolkit for reading, filtering, manipulating,   
+ visualizing and exporting data.
+ 
+- Pandas has wide range of functionalities such as:
+1. Reading different varities of data.
+2. Functions for filtering, selecting and manipulating data.
+3. Plotting data for visualization and exploration purpose.
+4. Also Pandas has a huge contibution from the developer communit
+
+- Pandas can help you read data from different types of files:
+  (CSV, JSON, HTML, MS Excel, HDF5 Format, Feather Format, MSGpack, 
+    Stata, SAS, Python Pickle Format, SQL, Google Big Query).
+
+# Instruction on how to read from different directory: 
+    If your CSV file is located in different directory, you have to povide the complete 
+    path of the file. For example: if the CSV file (named "data.csv") is in the Downloads 
+    folder and the Jupyter Notebook is in "home" folder, you can read the file as: 
+
+    import pandas as pd
+    
+    df = pd.read_csv('/home/av/downloads/data.csv')
+    
+    //In the python file you will see that I have given an example on this topic.

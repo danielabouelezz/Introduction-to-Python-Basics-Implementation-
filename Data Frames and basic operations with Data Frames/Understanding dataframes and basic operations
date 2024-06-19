@@ -1,0 +1,10 @@
+- A dataFrame is similar to Excel workbook tabular datasheet with noticable differences, 
+    for example the row annotation in Excel starts with 1 while in this python dataframe it 
+    starts with 0.
+
+- Basic operations with DataFrame:
+    Dimension of the DataFrame "rows x columns"     DataFrame.shape
+    Access Top/Bottom <n> records                   DataFrame.head(n)/ DataFrame.tail(n)
+    Access all column names                         DataFrame.columns
+    Access data of one column                       DataFrame["columnname"]
+    Access data of multiple columns                 DataFrame[["column1", "column2",...]]
